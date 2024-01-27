@@ -1,0 +1,44 @@
+
+.Calci1{
+  width: 350px;
+  margin:  auto;
+  padding: 20px;
+  background-color: grey;
+  text-align: center;
+}
+
+#display {
+  width: 79%;
+  margin-bottom: 15px;
+  padding: 30px;
+  text-align: end;
+  font-size: 25px;
+
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-gap: 5px;
+  
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 450px;
+  cursor: pointer;
+  
+
+}
+
+
+button:hover {
+  background-color: rgb(35, 175, 206);
+}
+
+
